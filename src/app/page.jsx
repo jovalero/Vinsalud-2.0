@@ -20,7 +20,12 @@ export default function Home() {
       description: "Atención primaria integral, diagnósticos precisos y prevención para toda la familia.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          {/* Stethoscope Tubing */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 6V3M5 6V3M7 3h10" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 6a4 4 0 008 0M19 6a4 4 0 01-8 0" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 10v4a3 3 0 006 0v-2" />
+          {/* Stethoscope Bell/Diaphragm */}
+          <circle cx="17" cy="12" r="1.5" strokeWidth={2} />
         </svg>
       )
     },
@@ -29,7 +34,12 @@ export default function Home() {
       description: "Cuidado dedicado, control de crecimiento y atención médica experta para tus hijos.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          {/* Baby Pacifier Nipple */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12V7a3 3 0 016 0v5" />
+          {/* Pacifier Guard */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 12h12M12 12v1" />
+          {/* Pacifier Ring */}
+          <circle cx="12" cy="17" r="3" strokeWidth={2} />
         </svg>
       )
     },
@@ -38,7 +48,10 @@ export default function Home() {
       description: "Evaluación cardiovascular detallada, control de presión y cuidado cardíaco avanzado.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          {/* Heart Shape */}
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          {/* Heart Beat Line */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5h1.5l1-2 1.5 4.5 1-3.5 1 1H17" />
         </svg>
       )
     },
@@ -47,7 +60,9 @@ export default function Home() {
       description: "Salud íntima de la mujer, control obstétrico y acompañamiento en cada etapa de la vida.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+          {/* Venus gender symbol (♀) representing gynecology */}
+          <circle cx="12" cy="9" r="5" strokeWidth={2} />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14v6M9 17h6" />
         </svg>
       )
     },
@@ -56,7 +71,12 @@ export default function Home() {
       description: "Tratamiento de lesiones óseas, articulares y rehabilitación kinesiológica profesional.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          {/* Bone representing Traumatology/Orthopedics */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 7l-10 10" />
+          {/* Top-Right bone joint ends */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 4a1.8 1.8 0 111.8 1.8A1.8 1.8 0 0116 4zM19 7a1.8 1.8 0 11-1.8-1.8A1.8 1.8 0 0119 7z" />
+          {/* Bottom-Left bone joint ends */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 17a1.8 1.8 0 111.8-1.8A1.8 1.8 0 015 17zM8 14a1.8 1.8 0 11-1.8 1.8A1.8 1.8 0 018 14z" />
         </svg>
       )
     },
@@ -65,7 +85,10 @@ export default function Home() {
       description: "Cuidado de la piel, diagnóstico de afecciones cutáneas, alergias y estética clínica.",
       icon: (
         <svg className="w-8 h-8 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-3" />
+          {/* Droplet representing dermatology serums / moisturizers */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2C12 2 6 9 6 13a6 6 0 0012 0c0-4-6-11-6-11z" />
+          {/* Skincare glow sparkles */}
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 4.5h2M18 3.5v2M5 8.5h2M6 7.5v2" />
         </svg>
       )
     }
