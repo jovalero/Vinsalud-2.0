@@ -1,0 +1,14 @@
+
+[
+    {
+      "email": "juan@dominio.com",
+      "password": "1234",
+      "role": "paciente"
+    },
+    {
+      "email": "ana@dominio.com",
+      "password": "5678",
+      "role": "medico"
+    }
+]
+  
