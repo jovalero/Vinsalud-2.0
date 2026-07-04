@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "h-1",
+    "pacienteId": "p-juan",
+    "fecha": "2026-06-15",
+    "notas": "Paciente presenta buen estado general. Control de rutina satisfactorio. Se aconseja continuar dieta equilibrada.",
+    "medicoId": "u-ana"
+  },
+  {
+    "_id": "h-2",
+    "pacienteId": "p-juan",
+    "fecha": "2026-07-01",
+    "notas": "Consulta por congestión nasal leve y carraspera. Se prescribe reposo y analgésicos comunes.",
+    "medicoId": "u-ana"
+  }
+]

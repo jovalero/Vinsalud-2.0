@@ -40,4 +40,4 @@ yarn-error.log*
 next-env.d.ts
 
 # local database
-/data
+# (Not ignored here so seed data is deployed on Netlify)

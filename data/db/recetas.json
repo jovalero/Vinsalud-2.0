@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "r-1",
+    "pacienteId": "p-juan",
+    "fecha": "2026-07-01",
+    "medicamento": "Ibuprofeno 600mg",
+    "dosis": "1 comprimido cada 8 horas",
+    "indicaciones": "Tomar después de las comidas principales por 3 días.",
+    "medicoId": "u-ana"
+  }
+]

@@ -123,7 +123,11 @@ export function getCollection(name) {
   const filePath = path.join(DB_DIR, `${name}.json`);
   if (!fs.existsSync(filePath)) {
     const seed = SEED_DATA[name] || [];
-    fs.writeFileSync(filePath, JSON.stringify(seed, null, 2), 'utf-8');
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(seed, null, 2), 'utf-8');
+    } catch (e) {
+      console.warn(`[NoSQL Warning] Cannot write seed file in read-only environment: ${filePath}. Using in-memory fallback.`, e);
+    }
     return seed;
   }
   try {
@@ -131,7 +135,7 @@ export function getCollection(name) {
     return JSON.parse(content);
   } catch (error) {
     console.error(`Error leyendo la colección NoSQL: ${name}`, error);
-    return [];
+    return SEED_DATA[name] || [];
   }
 }
 

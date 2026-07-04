@@ -1,0 +1,25 @@
+[
+  {
+    "_id": "p-juan",
+    "userId": "u-juan",
+    "nombre": "Juan Pérez",
+    "edad": 30,
+    "telefono": "123456789",
+    "correo": "juan@dominio.com"
+  },
+  {
+    "_id": "p-sofia",
+    "userId": "u-paciente",
+    "nombre": "Sofía Rodríguez",
+    "edad": 28,
+    "telefono": "0998877665",
+    "correo": "paciente@dominio.com"
+  },
+  {
+    "_id": "p-maria",
+    "nombre": "María López",
+    "edad": 25,
+    "telefono": "987654321",
+    "correo": "maria@example.com"
+  }
+]

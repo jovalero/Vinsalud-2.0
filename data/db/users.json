@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "u-juan",
+    "email": "juan@dominio.com",
+    "password": "1234",
+    "role": "paciente",
+    "nombre": "Juan Pérez"
+  },
+  {
+    "_id": "u-ana",
+    "email": "ana@dominio.com",
+    "password": "5678",
+    "role": "medico",
+    "nombre": "Dra. Ana López"
+  },
+  {
+    "_id": "u-medico",
+    "email": "medico@dominio.com",
+    "password": "medico123",
+    "role": "medico",
+    "nombre": "Dr. Carlos Mendoza"
+  },
+  {
+    "_id": "u-paciente",
+    "email": "paciente@dominio.com",
+    "password": "paciente123",
+    "role": "paciente",
+    "nombre": "Sofía Rodríguez"
+  },
+  {
+    "_id": "u-admin",
+    "email": "admin@dominio.com",
+    "password": "admin123",
+    "role": "admin",
+    "nombre": "Administrador General"
+  }
+]
